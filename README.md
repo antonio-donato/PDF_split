@@ -24,7 +24,4 @@ This project allows you to select a PDF file from your computer and choose which
 
 This is really a starting point. If you'd like to contribute to this project, feel free to open a pull request or report issues.
 
-## License
-
-This project is licensed under the MIT License.
 
