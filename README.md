@@ -16,6 +16,10 @@ This project allows you to select a PDF file from your computer and choose which
    - Specify the page to extract as output.
    - The new single-page PDF will be created in the same directory.
 
+3. **EXE generation**
+   - For myself to remember.
+   - For generating .exe file use the command "pyinstaller --onefile main.py" 
+
 ## Contributions
 
 This is really a starting point. If you'd like to contribute to this project, feel free to open a pull request or report issues.
