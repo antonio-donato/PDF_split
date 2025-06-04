@@ -15,7 +15,8 @@ class PDFPageSelector(QMainWindow):
         self.input_file = None
         self.output_file = None
 
-        self.label = QLabel("Seleziona il numero di pagina di output:")
+        # Ensure the label belongs to the main window so it is rendered
+        self.label = QLabel("Seleziona il numero di pagina di output:", self)
         self.label.setGeometry(20, 20, 300, 30)
 
         self.page_spinbox = QSpinBox(self)
